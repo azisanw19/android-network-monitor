@@ -16,7 +16,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -66,7 +66,7 @@ afterEvaluate {
 
                 groupId = "com.github.azisanw19"
                 artifactId = "android-network-monitor"
-                version = "0.0.3"
+                version = "0.0.4"
 
 
             }
