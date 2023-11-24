@@ -66,8 +66,8 @@ afterEvaluate {
                 from(components.findByName("release"))
 
                 groupId = "com.github.azisanw19"
-                artifactId = "networkmonitor"
-                version = "0.0.1"
+                artifactId = "android-network-monitor"
+                version = "0.0.2"
 
 
             }
