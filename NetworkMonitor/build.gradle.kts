@@ -34,9 +34,8 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.10.0")
 }
 
 afterEvaluate {
@@ -67,7 +66,7 @@ afterEvaluate {
 
                 groupId = "com.github.azisanw19"
                 artifactId = "android-network-monitor"
-                version = "0.0.2"
+                version = "0.0.3"
 
 
             }
